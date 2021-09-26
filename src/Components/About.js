@@ -7,7 +7,12 @@ function About() {
       <article className="post" id="about">
         <header>
           <div className="title">
-            <h1>About Pranish</h1>
+            <h1
+              className="w-post-elm post_title us_custom_3cc54cea align_left entry-title headerpagetitle has_text_color"
+              itemProp="headline"
+            >
+              About Pranish
+            </h1>
           </div>
         </header>
         <h4>Introduction</h4>
