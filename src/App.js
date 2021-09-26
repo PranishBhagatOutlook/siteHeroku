@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./Components/About";
+import Extras from "./Components/Extras";
 import Project from "./Components/Project";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/calculator" component={Calculator}></Route>
           <Route path="/photos" component={Photos}></Route>
           <Route path="/metronome" component={Metronome}></Route>
+          <Route path="/extras" component={Extras}></Route>
           <Route path="*">
             <NotFound />
           </Route>
