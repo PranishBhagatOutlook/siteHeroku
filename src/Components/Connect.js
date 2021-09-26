@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,8 +10,10 @@ import {
   faInstagram,
   faLinkedinIn,
   faGithub,
+  faGoogle,
+  fagoogle,
 } from "@fortawesome/free-brands-svg-icons";
-
+import { MailIcon } from "react-mail-icon";
 function Connect() {
   return (
     <div className="connect_with_me">
@@ -58,6 +60,14 @@ function Connect() {
           className="github connect"
         >
           <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+
+        <a
+          target="_blank"
+          href="mailto:bhagatpranish@gmail.com?subject=Hello From the website"
+          className="github connect"
+        >
+          <FontAwesomeIcon icon={faGoogle} size="2x" />
         </a>
       </div>
     </div>
