@@ -36,7 +36,7 @@ export default function Report() {
           </a>
         </div> */}
 
-        <h4>Singleyy Page</h4>
+        <h4>Single Page</h4>
         <SinglePagePDFViewer pdf={samplePDF} />
 
         <hr />
