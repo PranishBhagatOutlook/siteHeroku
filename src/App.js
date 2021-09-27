@@ -31,7 +31,7 @@ function App() {
           <Route path="/photos" component={Photos}></Route>
           <Route path="/metronome" component={Metronome}></Route>
           <Route path="/extras" component={Extras}></Route>
-          <Route path="/resume" component={Resume}></Route>
+          {/* <Route path="/resume" component={Resume}></Route> */}
 
           <Route path="*">
             <NotFound />

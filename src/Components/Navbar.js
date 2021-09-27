@@ -16,9 +16,9 @@ function Navbar() {
         <Link style={navStyle} to="/about">
           <li>ABOUT</li>
         </Link>
-        <Link style={navStyle} to="/resume">
+        {/* <Link style={navStyle} to="/resume">
           <li>RESUME</li>
-        </Link>
+        </Link> */}
         <Link style={navStyle} to="/projects">
           <li>PROJECTS</li>
         </Link>
