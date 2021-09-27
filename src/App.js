@@ -12,6 +12,7 @@ import Calculator from "./Components/Calculator/Calculator.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Photos from "./Components/Photos";
 import Metronome from "./Components/Metronome/Metronome";
+import Resume from "./Components/Resume/Resume";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
           <Route path="/photos" component={Photos}></Route>
           <Route path="/metronome" component={Metronome}></Route>
           <Route path="/extras" component={Extras}></Route>
+          <Route path="/resume" component={Resume}></Route>
+
           <Route path="*">
             <NotFound />
           </Route>
