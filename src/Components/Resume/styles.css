@@ -1,4 +1,4 @@
-.App {
+/* .App {
     font-family: sans-serif;
     text-align: center;
   }
@@ -23,7 +23,6 @@
     box-shadow: 2px 2px 2px 1px #ccc;
   }
   
-  /* For pdf */
   .react-pdf__Page {
     margin-top: 10px;
   }
@@ -41,9 +40,8 @@
     margin: 0 auto;
   }
   
-  /* For all pages */
   .all-page-container {
     height: 100%;
     max-height: 1000px;
     overflow: auto;
-  }
+  } */
