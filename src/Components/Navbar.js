@@ -37,6 +37,9 @@ function Navbar() {
         <Link style={navStyle} to="/extras">
           <li>EXTRRRAASSSS</li>
         </Link>
+        <Link style={navStyle} to="/statistics">
+          <li>STATISTICS</li>
+        </Link>
         {/* <Link style={navStyle} to="/calculator">
           <li>CALCULATOR</li>
         </Link>

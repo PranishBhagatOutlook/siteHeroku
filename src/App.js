@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Photos from "./Components/Photos";
 import Metronome from "./Components/Metronome/Metronome";
 import Resume from "./Components/Resume/Resume";
+import Statistics from "./Components/Statistics";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/metronome" component={Metronome}></Route>
           <Route path="/extras" component={Extras}></Route>
           {/* <Route path="/resume" component={Resume}></Route> */}
+          <Route path="/statistics" component={Statistics}></Route>
 
           <Route path="*">
             <NotFound />
