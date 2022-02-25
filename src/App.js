@@ -12,8 +12,9 @@ import Calculator from "./Components/Calculator/Calculator.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Photos from "./Components/Photos";
 import Metronome from "./Components/Metronome/Metronome";
-import Resume from "./Components/Resume/Resume";
+// import Resume from "./Components/Resume/Resume";
 import Statistics from "./Components/Statistics";
+import Courses from "./Components/Courses";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/extras" component={Extras}></Route>
           {/* <Route path="/resume" component={Resume}></Route> */}
           <Route path="/statistics" component={Statistics}></Route>
+          <Route path="/courses" component={Courses}></Route>
 
           <Route path="*">
             <NotFound />
